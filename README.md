@@ -17,3 +17,7 @@ Figure 1.) Features Given from .CSV File
 * Cursory visual analysis revealed that "EIN" and "NAME" would play no role in modeling, hence were dropped.
 
 #### Compiling, Training, and Evaluating the Model
+
+Figure 2.) Initial Deep Neural Net Parameters
+
+![](Resources/Fig2.png)
