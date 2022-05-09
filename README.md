@@ -38,3 +38,7 @@ Figure 3.) Model Loss & Accuracy results over 100 Epochs.
   - The number of epochs performed was increased to 200.
 
 Figure 4.) Optimized Model Loss & Accuracy over 200 Epochs.
+
+![](Resources/Fig4.png)
+
+* Implimented optimization changes further decreased the model's accuracy to 72.2%
