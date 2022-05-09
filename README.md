@@ -3,7 +3,7 @@ Neural Networks and Deep Learning Models
 
 ## Overview
 Using Tensorflow in Jupyter Notebook, "the Team" delved into deep machine learning models to predict success for charity campaigns submitted to
-the orginization Alphabet Soup Charity.
+the organization Alphabet Soup Charity.
 
 ## Results
 ### Data Preprocessing
@@ -30,19 +30,19 @@ Figure 3.) Model Loss & Accuracy results over 100 Epochs.
 ![](Resources/Fig3.png)
 
 * The model's goal was 75%+ accuracy, which the initial model fell short of by only reaching 72.5%.
-* To improve model performance, the following changes were implimented:
+* To improve model performance, the following changes were implemented:
   - The "STATUS" column was dropped due to its value being uniform (1) over 95% of the dataset.
   - Binning size for "Other" in "APPLICATION_TYPE" and "CLASSIFICATION" was increased to reduce the number of inputs.
   - Input layer neurons were increased to 200 with an activation function of "TANH".
-  - A total of 3 hidden layers was implimented, all with the activation function "RELU" and a stepped neuron count of 175, 150 and 125.
+  - A total of 3 hidden layers was utilized, all with the activation function "RELU" and a stepped neuron count of 175, 150 and 125.
   - The number of epochs performed was increased to 200.
 
 Figure 4.) Optimized Model Loss & Accuracy over 200 Epochs.
 
 ![](Resources/Fig4.png)
 
-* Implimented optimization changes decreased the model's accuracy to 72.2%
+* Optimization changes decreased the model's accuracy to 72.2%
 
 ## Summary
 
-Neither the original model @100 epochs or the optimized model @200 epochs reached the desired goal of 75%+ accuracy. A different model, perhaps based in Decision Trees methodology would yield better results given the large amount of categorical features that had to be processed. There was also a lot of input noise in the "ASK_AMOUNT" column that could of been filtered out.
+Neither the original model @100 epochs or the optimized model @200 epochs reached the desired goal of 75%+ accuracy. A different model, perhaps based in Decision Trees methodology would yield better results given the large amount of categorical features that had to be processed. There was also a lot of input noise in the "ASK_AMOUNT" column that could have been filtered out.
