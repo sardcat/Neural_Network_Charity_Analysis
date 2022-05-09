@@ -31,4 +31,10 @@ Figure 3.) Model Loss & Accuracy results over 100 Epochs.
 
 * The model's goal was 75%+ accuracy, which the initial model fell short of by only reaching 72.5%.
 * To improve model performance, the following changes were implimented:
-  - HALP
+  - The "STATUS" column was dropped due to its value being uniform (1) over 95% of the dataset.
+  - Binning size for "Other" in "APPLICATION_TYPE" and "CLASSIFICATION" was increased to reduce the number of inputs.
+  - Input layer neurons were increased to 200 with an activation function of "TANH".
+  - A total of 3 hidden layers was implimented, all with the activation function "RELU" and a stepped neuron count of 175, 150 and 125.
+  - The number of epochs performed was increased to 200.
+
+Figure 4.) Optimized Model Loss & Accuracy over 200 Epochs.
