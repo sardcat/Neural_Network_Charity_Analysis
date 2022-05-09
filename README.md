@@ -31,4 +31,4 @@ Figure 3.) Model Loss & Accuracy results over 100 Epochs.
 
 * The model's goal was 75%+ accuracy, which the initial model fell short of by only reaching 72.5%.
 * To improve model performance, the following changes were implimented:
-* - HALP
+  - HALP
