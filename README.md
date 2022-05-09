@@ -28,3 +28,7 @@ Figure 2.) Initial Deep Neural Net Parameters.
 Figure 3.) Model Loss & Accuracy results over 100 Epochs.
 
 ![](Resources/Fig3.png)
+
+* The model's goal was 75%+ accuracy, which the initial model fell short of by only reaching 72.5%.
+* To improve model performance, the following changes were implimented:
+* - HALP
