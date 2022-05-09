@@ -41,4 +41,8 @@ Figure 4.) Optimized Model Loss & Accuracy over 200 Epochs.
 
 ![](Resources/Fig4.png)
 
-* Implimented optimization changes further decreased the model's accuracy to 72.2%
+* Implimented optimization changes decreased the model's accuracy to 72.2%
+
+## Summary
+
+Neither the original model @100 epochs or the optimized model @200 epochs reached the desired goal of 75%+ accuracy. A different model, perhaps based in Decision Trees methodology would yield better results given the large amount of categorical features that had to be processed. There was also a lot of input noise in the "ASK_AMOUNT" column that could of been filtered out.
