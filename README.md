@@ -5,3 +5,9 @@ Using Tensorflow in Jupyter Notebook, "the Team" delved into deep machine learni
 the orginization Alphabet Soup Charity.
 ### Results
 #### Data Preprocessing
+
+Figure 1) Features Given from .CSV File
+
+![](Resources/Fig1.png)
+
+Figure 1) Features Given from .CSV File
